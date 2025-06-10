@@ -1,3 +1,9 @@
+// A simple logging system from MayakUI.
+// Made with love by Maya4ok! ❤️
+// Use setAdditionalInfo() to enable/disable file and line information.
+// Use MAYAK_LOG_TRACE(), MAYAK_LOG_DEBUG(), MAYAK_LOG_INFO(), etc. to log messages.
+// Is thread-safe!
+
 #pragma once
 
 #if __cplusplus < 201703L
@@ -41,11 +47,6 @@ bool enableVirtualTerminal() {
 #include <sstream>
 #include <iomanip>
 
-// A simple logging system from MayakUI.
-// Made with love by Maya4ok! ❤️
-// Use setAdditionalInfo() to enable/disable file and line information.
-// Use MAYAK_LOG_TRACE(), MAYAK_LOG_DEBUG(), MAYAK_LOG_INFO(), etc. to log messages.
-// Is thread-safe!
 namespace mayak::logger {
 
     // Time formats

@@ -1,4 +1,6 @@
-// I really likes this library, it's really simple
+// Renderer.hpp
+
+// I really like this library because it's really simple
 // (definitely not just Maya4ok talking to himself)
 
 #pragma once
@@ -8,7 +10,7 @@ namespace mayak::gfx {
 
     struct RendererContext {
         GLuint shaderProgram = 0;
-        // someday add VAO, VBO, textures, etc.
+        // someday I'll add VAO, VBO, textures, etc.
     };
 
     bool LoadShaders(RendererContext& ctx);

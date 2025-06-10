@@ -1,8 +1,12 @@
-// MayakUI - lightweight UI library, 
-// which will actually simplify your life building GUIs.
-// Made with love and really a lot of non-stop hours of coding by Maya4ok ❤️
-
 #pragma once
+
+/// \brief MayakUI - lightweight UI library,
+///
+/// which will actually simplify your life building GUIs.
+/// \note Made with love and really a lot of non-stop hours of coding by Maya4ok ❤️
+/// \link https://github.com/maya4ok-dev/mayak-ui
+/// \author Maya4ok
+namespace mayak{}
 
 #include "core/Init.hpp"
 #include "core/Window.hpp"
